@@ -1,0 +1,6 @@
+framework module Pods_TasteBudTests {
+  umbrella header "Pods-TasteBudTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

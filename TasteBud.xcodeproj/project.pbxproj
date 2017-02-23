@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0FD0C71DE14513005B6DD2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0FD0C61DE14513005B6DD2 /* LogInViewController.swift */; };
+		4C0FD0C91DE1452A005B6DD2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0FD0C81DE1452A005B6DD2 /* SignUpViewController.swift */; };
+		4C2FBFE21E5E934D00C76F34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FBFE11E5E934D00C76F34 /* GoogleService-Info.plist */; };
+		4C2FBFE31E5E934D00C76F34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FBFE11E5E934D00C76F34 /* GoogleService-Info.plist */; };
+		4C2FBFE41E5E934D00C76F34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FBFE11E5E934D00C76F34 /* GoogleService-Info.plist */; };
+		4C666CE81DC01D4F00779336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C666CE71DC01D4F00779336 /* AppDelegate.swift */; };
+		4C666CEA1DC01D4F00779336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C666CE91DC01D4F00779336 /* ViewController.swift */; };
+		4C666CED1DC01D4F00779336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C666CEB1DC01D4F00779336 /* Main.storyboard */; };
+		4C666CF01DC01D4F00779336 /* TasteBud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C666CEE1DC01D4F00779336 /* TasteBud.xcdatamodeld */; };
+		4C666CF21DC01D4F00779336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C666CF11DC01D4F00779336 /* Assets.xcassets */; };
+		4C666CF51DC01D4F00779336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C666CF31DC01D4F00779336 /* LaunchScreen.storyboard */; };
+		4C666D001DC01D4F00779336 /* TasteBudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C666CFF1DC01D4F00779336 /* TasteBudTests.swift */; };
+		4C666D0B1DC01D4F00779336 /* TasteBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C666D0A1DC01D4F00779336 /* TasteBudUITests.swift */; };
+		9E8C660B54A0FA0DFEC869DA /* Pods_TasteBudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B5CA758D559FE8A7E0BC69 /* Pods_TasteBudTests.framework */; };
+		D409CC04A229952349581F42 /* Pods_TasteBud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B16BBCE14DE4603EE60EC6 /* Pods_TasteBud.framework */; };
+		EE8FE903A0B98C14F3A27A35 /* Pods_TasteBudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24369C0239669917D74C74FE /* Pods_TasteBudUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C666CFC1DC01D4F00779336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C666CDC1DC01D4F00779336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C666CE31DC01D4F00779336;
+			remoteInfo = TasteBud;
+		};
+		4C666D071DC01D4F00779336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C666CDC1DC01D4F00779336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C666CE31DC01D4F00779336;
+			remoteInfo = TasteBud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076CBF03CB6A8D2193655B21 /* Pods-TasteBudUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBudUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBudUITests/Pods-TasteBudUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24369C0239669917D74C74FE /* Pods_TasteBudUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteBudUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B16BBCE14DE4603EE60EC6 /* Pods_TasteBud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteBud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5056CF1C07D68CE1C7B4E7 /* Pods-TasteBudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBudUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBudUITests/Pods-TasteBudUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45B5CA758D559FE8A7E0BC69 /* Pods_TasteBudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteBudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEDD6A1D288FBC99BD98305 /* Pods-TasteBudTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBudTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBudTests/Pods-TasteBudTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0FD0C61DE14513005B6DD2 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		4C0FD0C81DE1452A005B6DD2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4C2FBFE11E5E934D00C76F34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C666CE41DC01D4F00779336 /* TasteBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C666CE71DC01D4F00779336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C666CE91DC01D4F00779336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C666CEC1DC01D4F00779336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C666CEF1DC01D4F00779336 /* TasteBud.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TasteBud.xcdatamodel; sourceTree = "<group>"; };
+		4C666CF11DC01D4F00779336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C666CF41DC01D4F00779336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C666CF61DC01D4F00779336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C666CFB1DC01D4F00779336 /* TasteBudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteBudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C666CFF1DC01D4F00779336 /* TasteBudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteBudTests.swift; sourceTree = "<group>"; };
+		4C666D011DC01D4F00779336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C666D061DC01D4F00779336 /* TasteBudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteBudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C666D0A1DC01D4F00779336 /* TasteBudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteBudUITests.swift; sourceTree = "<group>"; };
+		4C666D0C1DC01D4F00779336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2F5CA799201A68B3A0D251 /* Pods-TasteBudTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBudTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBudTests/Pods-TasteBudTests.release.xcconfig"; sourceTree = "<group>"; };
+		D663D5753936B2BF18123492 /* Pods-TasteBud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBud.release.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBud/Pods-TasteBud.release.xcconfig"; sourceTree = "<group>"; };
+		F56F396DF4714BC7C799CDB4 /* Pods-TasteBud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBud/Pods-TasteBud.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C666CE11DC01D4F00779336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D409CC04A229952349581F42 /* Pods_TasteBud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C666CF81DC01D4F00779336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8C660B54A0FA0DFEC869DA /* Pods_TasteBudTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C666D031DC01D4F00779336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8FE903A0B98C14F3A27A35 /* Pods_TasteBudUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251E7C200A5A239587FE4CC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F56F396DF4714BC7C799CDB4 /* Pods-TasteBud.debug.xcconfig */,
+				D663D5753936B2BF18123492 /* Pods-TasteBud.release.xcconfig */,
+				4AEDD6A1D288FBC99BD98305 /* Pods-TasteBudTests.debug.xcconfig */,
+				4F2F5CA799201A68B3A0D251 /* Pods-TasteBudTests.release.xcconfig */,
+				3D5056CF1C07D68CE1C7B4E7 /* Pods-TasteBudUITests.debug.xcconfig */,
+				076CBF03CB6A8D2193655B21 /* Pods-TasteBudUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C666CDB1DC01D4F00779336 = {
+			isa = PBXGroup;
+			children = (
+				4C666CE61DC01D4F00779336 /* TasteBud */,
+				4C666CFE1DC01D4F00779336 /* TasteBudTests */,
+				4C666D091DC01D4F00779336 /* TasteBudUITests */,
+				4C666CE51DC01D4F00779336 /* Products */,
+				251E7C200A5A239587FE4CC6 /* Pods */,
+				7B0C731ECADE80326704101D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C666CE51DC01D4F00779336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C666CE41DC01D4F00779336 /* TasteBud.app */,
+				4C666CFB1DC01D4F00779336 /* TasteBudTests.xctest */,
+				4C666D061DC01D4F00779336 /* TasteBudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C666CE61DC01D4F00779336 /* TasteBud */ = {
+			isa = PBXGroup;
+			children = (
+				4C666CE71DC01D4F00779336 /* AppDelegate.swift */,
+				4C666CE91DC01D4F00779336 /* ViewController.swift */,
+				4C666CEB1DC01D4F00779336 /* Main.storyboard */,
+				4C0FD0C61DE14513005B6DD2 /* LogInViewController.swift */,
+				4C0FD0C81DE1452A005B6DD2 /* SignUpViewController.swift */,
+				4C666CF11DC01D4F00779336 /* Assets.xcassets */,
+				4C666CF31DC01D4F00779336 /* LaunchScreen.storyboard */,
+				4C666CF61DC01D4F00779336 /* Info.plist */,
+				4C2FBFE11E5E934D00C76F34 /* GoogleService-Info.plist */,
+				4C666CEE1DC01D4F00779336 /* TasteBud.xcdatamodeld */,
+			);
+			path = TasteBud;
+			sourceTree = "<group>";
+		};
+		4C666CFE1DC01D4F00779336 /* TasteBudTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C666CFF1DC01D4F00779336 /* TasteBudTests.swift */,
+				4C666D011DC01D4F00779336 /* Info.plist */,
+			);
+			path = TasteBudTests;
+			sourceTree = "<group>";
+		};
+		4C666D091DC01D4F00779336 /* TasteBudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C666D0A1DC01D4F00779336 /* TasteBudUITests.swift */,
+				4C666D0C1DC01D4F00779336 /* Info.plist */,
+			);
+			path = TasteBudUITests;
+			sourceTree = "<group>";
+		};
+		7B0C731ECADE80326704101D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38B16BBCE14DE4603EE60EC6 /* Pods_TasteBud.framework */,
+				45B5CA758D559FE8A7E0BC69 /* Pods_TasteBudTests.framework */,
+				24369C0239669917D74C74FE /* Pods_TasteBudUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C666CE31DC01D4F00779336 /* TasteBud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C666D0F1DC01D4F00779336 /* Build configuration list for PBXNativeTarget "TasteBud" */;
+			buildPhases = (
+				8161B492732317AF8C05117D /* [CP] Check Pods Manifest.lock */,
+				4C666CE01DC01D4F00779336 /* Sources */,
+				4C666CE11DC01D4F00779336 /* Frameworks */,
+				4C666CE21DC01D4F00779336 /* Resources */,
+				D04005EE4CE89E9B5BE3B5D4 /* [CP] Embed Pods Frameworks */,
+				5D1C494092D55DFDB031A28B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasteBud;
+			productName = TasteBud;
+			productReference = 4C666CE41DC01D4F00779336 /* TasteBud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C666CFA1DC01D4F00779336 /* TasteBudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C666D121DC01D4F00779336 /* Build configuration list for PBXNativeTarget "TasteBudTests" */;
+			buildPhases = (
+				64F3E8EEEAAC3FB2D0850855 /* [CP] Check Pods Manifest.lock */,
+				4C666CF71DC01D4F00779336 /* Sources */,
+				4C666CF81DC01D4F00779336 /* Frameworks */,
+				4C666CF91DC01D4F00779336 /* Resources */,
+				FCC99D34792A23979992B910 /* [CP] Embed Pods Frameworks */,
+				3622EF5950C5ED01C17DC028 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C666CFD1DC01D4F00779336 /* PBXTargetDependency */,
+			);
+			name = TasteBudTests;
+			productName = TasteBudTests;
+			productReference = 4C666CFB1DC01D4F00779336 /* TasteBudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C666D051DC01D4F00779336 /* TasteBudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C666D151DC01D4F00779336 /* Build configuration list for PBXNativeTarget "TasteBudUITests" */;
+			buildPhases = (
+				C2D2AC8E84CF9EBBFA76884F /* [CP] Check Pods Manifest.lock */,
+				4C666D021DC01D4F00779336 /* Sources */,
+				4C666D031DC01D4F00779336 /* Frameworks */,
+				4C666D041DC01D4F00779336 /* Resources */,
+				328CAD3DBD9F1F631DD8D962 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C666D081DC01D4F00779336 /* PBXTargetDependency */,
+			);
+			name = TasteBudUITests;
+			productName = TasteBudUITests;
+			productReference = 4C666D061DC01D4F00779336 /* TasteBudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C666CDC1DC01D4F00779336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DrDunkan;
+				TargetAttributes = {
+					4C666CE31DC01D4F00779336 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4C666CFA1DC01D4F00779336 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C666CE31DC01D4F00779336;
+					};
+					4C666D051DC01D4F00779336 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C666CE31DC01D4F00779336;
+					};
+				};
+			};
+			buildConfigurationList = 4C666CDF1DC01D4F00779336 /* Build configuration list for PBXProject "TasteBud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C666CDB1DC01D4F00779336;
+			productRefGroup = 4C666CE51DC01D4F00779336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C666CE31DC01D4F00779336 /* TasteBud */,
+				4C666CFA1DC01D4F00779336 /* TasteBudTests */,
+				4C666D051DC01D4F00779336 /* TasteBudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C666CE21DC01D4F00779336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2FBFE21E5E934D00C76F34 /* GoogleService-Info.plist in Resources */,
+				4C666CF51DC01D4F00779336 /* LaunchScreen.storyboard in Resources */,
+				4C666CF21DC01D4F00779336 /* Assets.xcassets in Resources */,
+				4C666CED1DC01D4F00779336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C666CF91DC01D4F00779336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2FBFE31E5E934D00C76F34 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C666D041DC01D4F00779336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2FBFE41E5E934D00C76F34 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		328CAD3DBD9F1F631DD8D962 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TasteBudUITests/Pods-TasteBudUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3622EF5950C5ED01C17DC028 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TasteBudTests/Pods-TasteBudTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1C494092D55DFDB031A28B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TasteBud/Pods-TasteBud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64F3E8EEEAAC3FB2D0850855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8161B492732317AF8C05117D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D2AC8E84CF9EBBFA76884F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D04005EE4CE89E9B5BE3B5D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TasteBud/Pods-TasteBud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC99D34792A23979992B910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TasteBudTests/Pods-TasteBudTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C666CE01DC01D4F00779336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0FD0C71DE14513005B6DD2 /* LogInViewController.swift in Sources */,
+				4C666CEA1DC01D4F00779336 /* ViewController.swift in Sources */,
+				4C666CE81DC01D4F00779336 /* AppDelegate.swift in Sources */,
+				4C666CF01DC01D4F00779336 /* TasteBud.xcdatamodeld in Sources */,
+				4C0FD0C91DE1452A005B6DD2 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C666CF71DC01D4F00779336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C666D001DC01D4F00779336 /* TasteBudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C666D021DC01D4F00779336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C666D0B1DC01D4F00779336 /* TasteBudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C666CFD1DC01D4F00779336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C666CE31DC01D4F00779336 /* TasteBud */;
+			targetProxy = 4C666CFC1DC01D4F00779336 /* PBXContainerItemProxy */;
+		};
+		4C666D081DC01D4F00779336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C666CE31DC01D4F00779336 /* TasteBud */;
+			targetProxy = 4C666D071DC01D4F00779336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C666CEB1DC01D4F00779336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C666CEC1DC01D4F00779336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C666CF31DC01D4F00779336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C666CF41DC01D4F00779336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C666D0D1DC01D4F00779336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C666D0E1DC01D4F00779336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C666D101DC01D4F00779336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56F396DF4714BC7C799CDB4 /* Pods-TasteBud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TasteBud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.TasteBud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C666D111DC01D4F00779336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D663D5753936B2BF18123492 /* Pods-TasteBud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TasteBud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.TasteBud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C666D131DC01D4F00779336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEDD6A1D288FBC99BD98305 /* Pods-TasteBudTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TasteBudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.TasteBudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteBud.app/TasteBud";
+			};
+			name = Debug;
+		};
+		4C666D141DC01D4F00779336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2F5CA799201A68B3A0D251 /* Pods-TasteBudTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TasteBudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.TasteBudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteBud.app/TasteBud";
+			};
+			name = Release;
+		};
+		4C666D161DC01D4F00779336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5056CF1C07D68CE1C7B4E7 /* Pods-TasteBudUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TasteBudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.TasteBudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TasteBud;
+			};
+			name = Debug;
+		};
+		4C666D171DC01D4F00779336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076CBF03CB6A8D2193655B21 /* Pods-TasteBudUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TasteBudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.TasteBudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TasteBud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C666CDF1DC01D4F00779336 /* Build configuration list for PBXProject "TasteBud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C666D0D1DC01D4F00779336 /* Debug */,
+				4C666D0E1DC01D4F00779336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C666D0F1DC01D4F00779336 /* Build configuration list for PBXNativeTarget "TasteBud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C666D101DC01D4F00779336 /* Debug */,
+				4C666D111DC01D4F00779336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C666D121DC01D4F00779336 /* Build configuration list for PBXNativeTarget "TasteBudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C666D131DC01D4F00779336 /* Debug */,
+				4C666D141DC01D4F00779336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C666D151DC01D4F00779336 /* Build configuration list for PBXNativeTarget "TasteBudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C666D161DC01D4F00779336 /* Debug */,
+				4C666D171DC01D4F00779336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C666CEE1DC01D4F00779336 /* TasteBud.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C666CEF1DC01D4F00779336 /* TasteBud.xcdatamodel */,
+			);
+			currentVersion = 4C666CEF1DC01D4F00779336 /* TasteBud.xcdatamodel */;
+			path = TasteBud.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C666CDC1DC01D4F00779336 /* Project object */;
+}
