@@ -13,13 +13,13 @@
 		4C2FBFE31E5E934D00C76F34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FBFE11E5E934D00C76F34 /* GoogleService-Info.plist */; };
 		4C2FBFE41E5E934D00C76F34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FBFE11E5E934D00C76F34 /* GoogleService-Info.plist */; };
 		4C666CE81DC01D4F00779336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C666CE71DC01D4F00779336 /* AppDelegate.swift */; };
-		4C666CEA1DC01D4F00779336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C666CE91DC01D4F00779336 /* ViewController.swift */; };
 		4C666CED1DC01D4F00779336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C666CEB1DC01D4F00779336 /* Main.storyboard */; };
 		4C666CF01DC01D4F00779336 /* TasteBud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C666CEE1DC01D4F00779336 /* TasteBud.xcdatamodeld */; };
 		4C666CF21DC01D4F00779336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C666CF11DC01D4F00779336 /* Assets.xcassets */; };
 		4C666CF51DC01D4F00779336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C666CF31DC01D4F00779336 /* LaunchScreen.storyboard */; };
 		4C666D001DC01D4F00779336 /* TasteBudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C666CFF1DC01D4F00779336 /* TasteBudTests.swift */; };
 		4C666D0B1DC01D4F00779336 /* TasteBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C666D0A1DC01D4F00779336 /* TasteBudUITests.swift */; };
+		4CF0AEF51E5FEF3D0087C60C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0AEF41E5FEF3D0087C60C /* MainVC.swift */; };
 		9E8C660B54A0FA0DFEC869DA /* Pods_TasteBudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B5CA758D559FE8A7E0BC69 /* Pods_TasteBudTests.framework */; };
 		D409CC04A229952349581F42 /* Pods_TasteBud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B16BBCE14DE4603EE60EC6 /* Pods_TasteBud.framework */; };
 		EE8FE903A0B98C14F3A27A35 /* Pods_TasteBudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24369C0239669917D74C74FE /* Pods_TasteBudUITests.framework */; };
@@ -54,7 +54,6 @@
 		4C2FBFE11E5E934D00C76F34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4C666CE41DC01D4F00779336 /* TasteBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C666CE71DC01D4F00779336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C666CE91DC01D4F00779336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C666CEC1DC01D4F00779336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C666CEF1DC01D4F00779336 /* TasteBud.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TasteBud.xcdatamodel; sourceTree = "<group>"; };
 		4C666CF11DC01D4F00779336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		4C666D061DC01D4F00779336 /* TasteBudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteBudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C666D0A1DC01D4F00779336 /* TasteBudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteBudUITests.swift; sourceTree = "<group>"; };
 		4C666D0C1DC01D4F00779336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF0AEF41E5FEF3D0087C60C /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4F2F5CA799201A68B3A0D251 /* Pods-TasteBudTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBudTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBudTests/Pods-TasteBudTests.release.xcconfig"; sourceTree = "<group>"; };
 		D663D5753936B2BF18123492 /* Pods-TasteBud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBud.release.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBud/Pods-TasteBud.release.xcconfig"; sourceTree = "<group>"; };
 		F56F396DF4714BC7C799CDB4 /* Pods-TasteBud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteBud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TasteBud/Pods-TasteBud.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,9 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				4C666CE71DC01D4F00779336 /* AppDelegate.swift */,
-				4C666CE91DC01D4F00779336 /* ViewController.swift */,
 				4C666CEB1DC01D4F00779336 /* Main.storyboard */,
 				4C0FD0C61DE14513005B6DD2 /* LogInViewController.swift */,
+				4CF0AEF41E5FEF3D0087C60C /* MainVC.swift */,
 				4C0FD0C81DE1452A005B6DD2 /* SignUpViewController.swift */,
 				4C666CF11DC01D4F00779336 /* Assets.xcassets */,
 				4C666CF31DC01D4F00779336 /* LaunchScreen.storyboard */,
@@ -255,6 +255,7 @@
 				TargetAttributes = {
 					4C666CE31DC01D4F00779336 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SFKZW8UURV;
 					};
 					4C666CFA1DC01D4F00779336 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -445,7 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C0FD0C71DE14513005B6DD2 /* LogInViewController.swift in Sources */,
-				4C666CEA1DC01D4F00779336 /* ViewController.swift in Sources */,
+				4CF0AEF51E5FEF3D0087C60C /* MainVC.swift in Sources */,
 				4C666CE81DC01D4F00779336 /* AppDelegate.swift in Sources */,
 				4C666CF01DC01D4F00779336 /* TasteBud.xcdatamodeld in Sources */,
 				4C0FD0C91DE1452A005B6DD2 /* SignUpViewController.swift in Sources */,
@@ -593,10 +594,13 @@
 			baseConfigurationReference = F56F396DF4714BC7C799CDB4 /* Pods-TasteBud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TasteBud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.TasteBud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -605,10 +609,13 @@
 			baseConfigurationReference = D663D5753936B2BF18123492 /* Pods-TasteBud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TasteBud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.TasteBud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

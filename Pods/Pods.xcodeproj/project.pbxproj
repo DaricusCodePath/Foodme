@@ -589,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 389B5B66E0754C493FB8B7B1B9320EA9 /* Pods-TasteBud.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -612,6 +613,7 @@
 				PRODUCT_NAME = Pods_TasteBud;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -688,6 +690,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 220CE7D968FDC9DC7456EB4F56584571 /* Pods-TasteBud.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
