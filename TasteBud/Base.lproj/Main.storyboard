@@ -209,21 +209,27 @@
                         <viewControllerLayoutGuide type="bottom" id="G7u-5K-dFY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="CX4-BQ-IZw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4GQ-x8-IPR">
-                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
                                     <tabBarItem systemItem="featured" id="qMB-G6-uvk"/>
                                     <tabBarItem systemItem="more" id="0Sb-gb-D2t"/>
                                 </items>
                             </tabBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ohw-H2-gCa">
+                                <rect key="frame" x="93" y="237" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="4GQ-x8-IPR" secondAttribute="trailing" id="33D-w9-aH4"/>
+                            <constraint firstItem="Ohw-H2-gCa" firstAttribute="centerX" secondItem="4GQ-x8-IPR" secondAttribute="centerX" constant="-71.5" id="EbW-Kl-ZQW"/>
+                            <constraint firstItem="Ohw-H2-gCa" firstAttribute="top" secondItem="o38-up-hIk" secondAttribute="bottom" constant="217" id="X9E-QL-xfM"/>
                             <constraint firstItem="4GQ-x8-IPR" firstAttribute="bottom" secondItem="G7u-5K-dFY" secondAttribute="top" id="Xce-qk-3FL"/>
                             <constraint firstItem="4GQ-x8-IPR" firstAttribute="leading" secondItem="CX4-BQ-IZw" secondAttribute="leading" id="dnc-q6-ah5"/>
                         </constraints>
@@ -232,7 +238,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNJ-i3-4BH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1901" y="220"/>
+            <point key="canvasLocation" x="1783.5" y="219.5"/>
         </scene>
         <!--Login-->
         <scene sceneID="Qus-2d-ARB">
@@ -363,8 +369,8 @@
         <image name="food-salad-healthy-vegetables copy2" width="984" height="1409"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="f1X-A1-5Jg"/>
+        <segue reference="ksQ-Jq-3SE"/>
         <segue reference="nZh-Dj-1pR"/>
-        <segue reference="4FV-uK-r8m"/>
-        <segue reference="zNO-6i-F01"/>
     </inferredMetricsTieBreakers>
 </document>
